@@ -5,11 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Git</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="bg-secondary">
-  
+<body class="bg-light">
+  <!-- Header starts -->
   <header class="vh-100 header d-flex flex-column ">
     <nav class="navbar navbar-expand-lg navbar-light  ">
       <div class="container">
@@ -82,12 +83,77 @@
         <div class="col-6"></div>
       </div>
     </div>
-    
-    
   </header>
+  <!-- Header ends -->
   
-  
-  <main></main>
+  <main>
+    <!-- search starts -->
+    <div class="search bg-white py-4">
+      <form class="container d-flex align-items-center gap-5">
+        <select class="form-select">
+          <option>Select Brand</option>
+          <option>Mersades Bens</option>
+          <option>BMW</option>
+          <option>Ferrary</option>
+          <option>Wols Wagen</option>
+        </select>
+        <select class="form-select">
+          <option>Select Model</option>
+          <option>Model SX</option>
+          <option>Model SX</option>
+          <option>Model SX</option>
+        </select>
+        <button class="btn btn-danger py-2 px-3">Search</button>
+      </form>
+    </div>
+    <!-- Search ends -->
+    
+    <!-- Collection starts -->
+    <div class="collection mt-5">
+      
+      <div class="container">
+        <h2 class="">Our Collection</h2>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-8 search-model">
+                  <div class="bg-danger h-100 p-4 d-flex flex-column gap-2 justify-content-end">
+                    <p class="text-gray">Esemka Car</p>
+                    <h1 class="text-white">Model SX</h1>
+                    <p class="text-gray d-flex gap-3"><span>2000</span><span>Electric</span><span>Automatic</span></p>
+                    <i class="bi fs-1 text-white bi-arrow-right-short"></i>
+                  </div>
+                </div>
+                <div class="col-4 search-model ">
+                  <div class="bg-gray h-100"></div>
+                </div>
+                <div class="col-4 mt-4 search-model ">
+                  <div class="bg-gray h-100"></div>
+                </div>
+                <div class="col-4 mt-4 search-model ">
+                  <div class="bg-gray h-100"></div>
+                </div>
+                <div class="col-4 mt-4 search-model ">
+                  <div class="bg-gray h-100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Collection ends -->
+    
+  </main>
   
   <footer></footer>
   

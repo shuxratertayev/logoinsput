@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background: #E5E5E5;
+}
+
 .header {
   background-image: url('../img/keith-misner-h0Vxgz5tyXA-unsplash.jpg');
   background-repeat: no-repeat;
@@ -23,4 +27,16 @@
 
 .z-index-2{
   z-index: 2;
+}
+
+.bg-gray{
+  background: #FDE5E6;
+}
+
+.text-gray{
+  color: #FDE5E6;
+}
+
+.search-model{
+  height: 400px;
 }
